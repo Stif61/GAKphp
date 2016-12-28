@@ -93,19 +93,17 @@ ul {
  border: 1px solid #C0D7FB;
  font-weight: bold;
 
-  overflow: hidden; /* необходимо для того, чтобы
-  спрятать верхний бордюр у первого пункта и
-  нижний бордюр у последнего пункта */
+  overflow: hidden; 
 }
 li {
   list-style: none;
  background:  4px 8px no-repeat;
   padding: 5px 0 8px 22px;
 
- border-top: 1px solid #C0D7FB; /* синяя линия */
- border-bottom: 1px solid #FFF; /* белая линия */
- margin: -1px 0 -2px; /* "нахлестываем" на предыдущий и следующий пункт,
-  в результате чего и достигается нужный эффект */
+ border-top: 1px solid #C0D7FB; 
+ border-bottom: 1px solid #FFF; 
+ margin: -1px 0 -2px; 
+ 
  
 }
 
@@ -171,7 +169,7 @@ a.button5 {
 a.button5:before {
   display: inline-block;
   vertical-align: middle;
-  line-height: 1;  /* для больших картинок 0 */
+  line-height: 1;  
   padding-right: 5px;
 }
 a.button5[data-vk]:before {content: url(http://favicon.yandex.net/favicon/vk.com);}
